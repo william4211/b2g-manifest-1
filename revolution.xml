@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><manifest>
+
+  <include name="base-kk-aosp-cm.xml"/>
+
+  <default revision="refs/heads/stable/cm-11.0" remote="github" sync-c="true" sync-j="4" />
+
+  <!-- Revolution specific things -->
+  <project path="device/geeksphone/revolution" name="blerfont/revo_android_device_geeksphone_revolution" revision="master" />
+  <project path="cm11_patches" name="blerfont/revo_cm11_patches" revision="master" />
+  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="android-ia/platform_hardware_broadcom_wlan" groups="broadcom_wlan" revision="release/android-4.4.2_r1-ia2" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk"  />
+</manifest>

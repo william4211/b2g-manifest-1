@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <include name="base-kk-cm.xml"/>
+
+  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
+
+</manifest>
