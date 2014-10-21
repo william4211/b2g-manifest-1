@@ -42,7 +42,7 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" />
+  <project name="platform/bootable/recovery" path="bootable/recovery" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
